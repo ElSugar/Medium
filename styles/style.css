@@ -15,9 +15,6 @@ li{
   margin: 0 auto;
   padding: 0 15px;
 }
-body{
-
-}
 .header__top{
   border-bottom: 1px solid rgb(223, 223, 223);
   margin-bottom: 15px; /* Отступ снизу */
@@ -35,7 +32,7 @@ body{
   padding: 10px; /* Поля вокруг текста */
   color: #5FA777; /* Цвет текста */
   margin: 0 2px 0 1150px; /* Отступы вокруг блока */
-  right: 25px; /* Положение от правого края */
+  right: 40px; /* Положение от правого края */
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 14px;
 }
@@ -90,7 +87,55 @@ body{
   background-position: center;
   min-height: 550px;
 }
+.main-text{
+  margin-left: 390px;
+  margin-right: 390px;
+  line-height: 1.5;
+}
 .title-inner{
-  font-size: 20pt;
-  background-position: center;
+  margin-left: -10px;
+  margin-right: -10px;
+  font-family: 'Merriweather', serif;
+  font-size: 32px;
+}
+.content-text{
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.author{
+  display: flex;
+  margin-bottom: 50px;
+}
+.avatar{
+  position: absolute;
+  display: inline-block;
+}
+.author-name{
+  position: relative;
+  top: -3px;
+  left: 40px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+}
+.follow-bottom{
+  position: relative;
+  top: -5px;
+  left: 35px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 1px 7px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+}
+.author li + li{
+  padding-left: 15px;
+}
+.data{
+  position: relative;
+  top: 20px;
+  left: -95px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 12px;
+  color: dimgray;
 }
