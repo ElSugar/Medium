@@ -21,11 +21,27 @@ body{
 .header__top{
   background-color: #ffffff;
 }
+.header__logo{
+  position: absolute;
+  top: 15px; /* Положение от верхнего края */
+  left: 90px; /* Положение от левого края */   
+  width: 100px; /* Ширина блока */
+}
 .header__signIn{
-  color: #5DBB63;
+  position: relative; /* Относительное позиционирование */
+  top: 15px; /* Положение от верхнего края */
+  padding: 10px; /* Поля вокруг текста */
+  color: #5DBB63; /* Цвет текста */
+  margin: 0 2px 0 1150px; /* Отступы вокруг блока */
+  right: 10px; /* Положение от правого края */
 }
 .header__getStarted{
-  border: 3px #5DBB63;
-  padding: 3px;
+  position: absolute; /* Абсолютное позиционирование */
+  top: 20px; /* Положение от верхнего края */
+  right: 150px; /* Положение от правого края */
+  
   color: #5DBB63;
+  border: 1px solid #5DBB63; /* Параметры рамки */
+  border-radius: 5px;
+  padding: 3px; /* Поля вокруг текста */
 }
